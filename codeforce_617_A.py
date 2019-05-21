@@ -1,4 +1,4 @@
-# https://codeforces.com/contest/617/problem/A  (Elephant)
+# https://codeforces.com/contest/617/problem/A
 
 origin = 0
 x = int(input())
