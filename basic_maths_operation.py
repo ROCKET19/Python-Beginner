@@ -16,11 +16,17 @@ x = Calculator()
 num1 = int(input('Enter the first number '))
 num2 = int(input('Enter the second number '))
 choice = input("Enter which operation is to be performed (+) (-) (*) (/) ")
+
 dictionary = {
-    "+": x.sum,
-    '-': x.difference,
-    '*': x.mult,
-    '/': x.div
+
+        "+": x.sum,
+        '-': x.difference,
+        '*': x.mult,
+        '/': x.div
 
 }
-dictionary.get(choice)(num1, num2)
+
+try:
+    dictionary.get(choice)(num1, num2)
+except TypeError:
+    print("Invalid Choice ")
