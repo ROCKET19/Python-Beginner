@@ -1,2 +1,2 @@
-# Python-Beginner
-Simple Python Programs to learn Python
+# Python_Programs
+Some Python Programs to learn Python
